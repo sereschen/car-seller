@@ -1,0 +1,31 @@
+<div class="card-container">
+  <div class="card" [ngClass]="{'show-info': showInfo}">
+    <div class="front" (click)="toggleShowInfo()">
+      <div class="title">
+        <span>{{ car.brand }} </span>
+        <span>{{ car.model }}</span>
+      </div>
+      <img [src]="car.photo" [alt]="car.model + car.year">
+    </div>
+    <div class="back">
+      <ul (click)="toggleShowInfo()">
+        <li>
+          Brand: {{ car.brand }}
+        </li>
+        <li>
+          Model: {{ car.model }}
+        </li>
+        <li>
+          Year: {{ car.year }}
+        </li>
+        <li>
+          Price: {{ car.price | currency  : "COP" : "symbol-narrow" : 0 }}
+        </li>
+      </ul>
+
+      <div class="actions-section">
+        <button class="btn btn-secondary" (click)="addToComparator()">Add to comparator</button>
+      </div>
+    </div>
+  </div>
+</div>

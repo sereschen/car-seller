@@ -1,0 +1,26 @@
+@import '../../../global-styles/variables';
+
+.filters-bar {
+  padding: 1em;
+  background: $primary-color;
+}
+
+.cars-container {
+  display: flex;
+  justify-content: center;
+
+  .cars-list {
+    display: flex;
+    flex-wrap: wrap;
+    &::after {
+      content: '';
+      flex: auto;
+    }
+
+    .car {
+      flex: 0 1 auto;
+
+    }
+  }
+
+}

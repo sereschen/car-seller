@@ -1,0 +1,11 @@
+@import '../../../global-styles/variables';
+.navbar {
+  background: $primary-color-dark;
+  color: $primary-text-color;
+  position: sticky;
+  width: 100%;
+  padding: 1em;
+  .navbar-link {
+    margin: 0 0.2em;
+  }
+}

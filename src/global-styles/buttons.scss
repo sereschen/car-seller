@@ -1,0 +1,16 @@
+@import "variables";
+.btn {
+  color: none;
+  background: none;
+  border: none;
+  border-radius: 1px;
+  padding: 0.5em;
+  &.btn-primary {
+    color: $primary-text-color;
+    background: $primary-color;
+  }
+  &.btn-secondary {
+    color: $primary-text-color;
+    background: $secondary-color-dark;
+  }
+}

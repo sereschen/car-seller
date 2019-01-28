@@ -1,0 +1,49 @@
+@import '../../../global-styles/variables';
+
+.comparator {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comparable-car {
+  width: 15em;
+  flex: 0 0 auto;
+  position: relative;
+  box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding-bottom: 3em;
+  margin: 1em;
+
+  &::after {
+    content: '';
+    flex: auto;
+  }
+
+  .actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5em;
+    background: $secondary-color-light;
+  }
+
+  .car-info {
+    padding: 1em;
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  .car-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}

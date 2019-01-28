@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "brand": "Chevrolet",
+    "year": "2004",
+    "photo": "assets/car-photos/chevrolet-alto-2004.jpg",
+    "model": "Alto",
+    "price": "7000000"
+  },
+  {
+    "id": 1,
+    "brand": "Chevrolet",
+    "year": "2018",
+    "photo": "assets/car-photos/chevrolet-spark-2018.jpeg",
+    "model": "Spark",
+    "price": "20000000"
+  },
+  {
+    "id": 2,
+    "brand": "Chevrolet",
+    "year": "2016",
+    "photo": "assets/car-photos/chevrolet-sail-2016.jpg",
+    "model": "Alto",
+    "price": "26000000"
+  },
+  {
+    "id": 3,
+    "brand": "Mazda",
+    "year": "2008",
+    "photo": "assets/car-photos/mazda-6-2008.jpg",
+    "model": "6",
+    "price": "23000000"
+  },
+  {
+    "id": 4,
+    "brand": "Nissan",
+    "year": "2011",
+    "photo": "assets/car-photos/nissan-sentra-2011.jpg",
+    "model": "Sentra",
+    "price": "29000000"
+  },
+  {
+    "id": 5,
+    "brand": "Nissan",
+    "year": "2013",
+    "photo": "assets/car-photos/nissan-versa-advance-2013.jpg",
+    "model": "Versa Advance",
+    "price": "28000000"
+  },
+  {
+    "id": 6,
+    "brand": "Volkswagen",
+    "year": "2013",
+    "photo": "assets/car-photos/volkswagen-jetta-2013.jpg",
+    "model": "Jetta",
+    "price": "2900000"
+  },
+  {
+    "id": 7,
+    "brand": "Chevrolet",
+    "year": "2004",
+    "photo": "assets/car-photos/chevrolet-alto-2004.jpg",
+    "model": "Alto",
+    "price": "7000000"
+  },
+  {
+    "id": 8,
+    "brand": "Chevrolet",
+    "year": "2004",
+    "photo": "assets/car-photos/chevrolet-alto-2004.jpg",
+    "model": "Alto",
+    "price": "7000000"
+  },
+  {
+    "id": 9,
+    "brand": "Chevrolet",
+    "year": "2004",
+    "photo": "assets/car-photos/chevrolet-alto-2004.jpg",
+    "model": "Alto",
+    "price": "7000000"
+  }
+]

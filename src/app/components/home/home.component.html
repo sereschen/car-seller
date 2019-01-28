@@ -1,0 +1,13 @@
+
+<div class="filters-bar">
+  <div>
+    <label for="brand-search">Brand search: </label>
+    <input id="brand-search" type="text" [(ngModel)]="search" (ngModelChange)="filterByBrand(search)">
+  </div>
+</div>
+<div class="cars-container">
+
+  <div class="cars-list">
+    <app-car *ngFor="let car of cars | async" [car]="car" class="car"></app-car>
+  </div>
+</div>

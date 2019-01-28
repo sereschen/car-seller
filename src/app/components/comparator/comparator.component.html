@@ -1,0 +1,26 @@
+<div class="comparator">
+  <div class="comparable-car" *ngFor="let car of comparableCars | async">
+    <div class="car-image">
+      <img [src]="car.photo" [alt]="car.model + car.year">
+    </div>
+    <div class="car-info">
+      <ul>
+        <li>
+          Brand: {{ car.brand }}
+        </li>
+        <li>
+          Model: {{ car.model }}
+        </li>
+        <li>
+          Year: {{ car.year }}
+        </li>
+        <li>
+          Price: {{ car.price | currency  : "COP" : "symbol-narrow" : 0 }}
+        </li>
+      </ul>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" (click)="removeFromComparator(car)">Remove</button>
+    </div>
+  </div>
+</div>
